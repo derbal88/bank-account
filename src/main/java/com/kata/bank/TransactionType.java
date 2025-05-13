@@ -1,6 +1,6 @@
 package com.kata.bank;
 
-pblic enum TransactionType {
+public enum TransactionType {
   DEPOSIT,
   WITHDRAWAL
 }
