@@ -13,7 +13,7 @@ public class Account {
       transactions.add(new Transaction(LocalDate.now(), amount, balance, TransactionType.DEPOSIT));
     }
 
-    public void withdraw(int amount) {
+    public void withdrawal(int amount) {
       if(amout > balance) {
          throw new IllegalArgumentException("you have no balance in your account");
       }
